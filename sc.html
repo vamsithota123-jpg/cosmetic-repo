@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.offer-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.offer-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.offer-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.offer-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.offer-details p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.buy-now {
+    padding: 10px 20px;
+    background-color: #ff6262;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-now:hover {
+    background-color: #e55454;
+}
+
+.code {
+    font-size: 12px;
+    color: #777;
+}
+
+.code span {
+    font-weight: bold;
+    color: #333;
+}
+
+.subscribe {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="section-title">OFFERS</h2>
+        <div class="offers">
+            <!-- Card 1 -->
+            <div class="offer-card">
+                <img src="https://images.sugarcosmetics.com/Promotion/795425bf-04ec-424c-b2d6-21e956dadb9c.jpg" alt="Offer 1">
+                <div class="offer-details">
+                    <h3>Get Any 3 Bestsellers</h3>
+                    <p>Just ₹1399</p>
+                    <button class="buy-now">Buy Now</button>
+                    <p class="code">Use Code: <span>FESTIVE1399</span></p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="offer-card">
+                <img src="https://images.sugarcosmetics.com/Promotion/5938c062-4b4d-4e55-abd1-be6621421bec.jpg" alt="Offer 2">
+                <div class="offer-details">
+                    <h3>Enjoy 10% Off Sitewide</h3>
+                    <p>Grab your favorites</p>
+                    <button class="buy-now">Shop Now</button>
+                    <p class="code">Use Code: <span>TREAT10</span></p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="offer-card">
+                <img src="https://images.sugarcosmetics.com/Promotion/610cc58c-bd80-49c2-a399-98112dced432.jpg" alt="Offer 3">
+                <div class="offer-details">
+                    <h3>Festive Season Calls for Gorgeous Looks</h3>
+                    <p>25% off on orders of ₹1499</p>
+                    <button class="buy-now">Shop Now</button>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="offer-card">
+                <img src="https://images.sugarcosmetics.com/Promotion/c4175bd2-1501-4c46-9fde-17de8e914b87.jpg" alt="Offer 4">
+                <div class="offer-details">
+                    <h3>Mini Sling Bag</h3>
+                    <p>Complimentary on orders above ₹999</p>
+                    <button class="buy-now">Start Shopping</button>
+                    <p class="code">Use Code: <span>FESTIVE999</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="subscribe">
+            <h3>Let's Stay in Touch</h3>
+            <p>Get the latest beauty tips straight to your inbox.</p>
+            <form>
+                <input type="email" placeholder="Enter Email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
